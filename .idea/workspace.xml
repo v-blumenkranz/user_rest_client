@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891152a6-fd65-4afa-8e60-bdae9aec005d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/rest/AppTest.java" afterDir="false" />
+    <list default="true" id="891152a6-fd65-4afa-8e60-bdae9aec005d" name="Changes" comment="Example of a REST client (works with REST_example REST service)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/rest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/rest/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/rest/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/rest/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/rest/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/rest/Communication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/rest/config/AppConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/rest/model/User.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,16 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4fb3d27d8cfda152b313c45efaa1fca7&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/kata_rest_client",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "spring.configuration.checksum": "023cb79f9eb4aa339250349847448b71"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.rest.model" />
@@ -59,7 +60,7 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.rest.App" />
-      <module name="REST_client" />
+      <module name="kata_rest_client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.rest.*" />
@@ -86,8 +87,19 @@
       <updated>1659692782636</updated>
       <workItem from="1659692786020" duration="5149000" />
       <workItem from="1659709832216" duration="553000" />
-      <workItem from="1659710641863" duration="3491000" />
+      <workItem from="1659710641863" duration="3713000" />
+      <workItem from="1659714498854" duration="3222000" />
+      <workItem from="1660144805477" duration="7000" />
+      <workItem from="1661341527081" duration="5755000" />
     </task>
+    <task id="LOCAL-00001" summary="Example of a REST client (works with REST_example REST service)">
+      <created>1659714268065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659714268065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +115,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Example of a REST client (works with REST_example REST service)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of a REST client (works with REST_example REST service)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
